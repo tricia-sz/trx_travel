@@ -20,7 +20,7 @@ const config: Config = {
       backgroundImage: {
         trxheader: "url('/public/bgh.svg')",
       },
-
+     
       colors: {
         transparent: 'transparent',
         blueTrx: '#3E86F5',
