@@ -2,7 +2,6 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Header } from '@/components/header';
-
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -17,8 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='antialiased'>
+      <link rel='icon' href='/favicon.svg' />
       <body className={inter.className}>
-        <Header />
+          <Header />
         {children}
       </body>
     </html>
