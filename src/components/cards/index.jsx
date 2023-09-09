@@ -1,8 +1,6 @@
 import { BiSolidPlaneAlt } from 'react-icons/bi';
-import { FaPlaneArrival } from 'react-icons/fa6';
 import { ImAirplane } from 'react-icons/im';
 import { IoAirplaneSharp, IoCalendarNumberSharp } from 'react-icons/io5';
-import { GiAirplaneArrival } from 'react-icons/gi';
 
 export function Cards() {
   return (
@@ -11,7 +9,7 @@ export function Cards() {
         <div className='flex justify-center items-center'>
           <div className='flex flex-col'>
             <span className='text-black/50 '>Living From</span>
-            <span className='text-2xl'>13 Nov, Wed</span>
+            <span className='text-2xl'>São Paulo</span>
           </div>
         </div>
         <div className='flex justify-center items-center'>
@@ -19,8 +17,8 @@ export function Cards() {
         </div>
         <div className='flex justify-center items-center'>
           <div className='flex flex-col'>
-            <span className='text-black/50'>Return</span>
-            <span className='text-2xl'>09 Nov, Sat</span>
+            <span className='text-black/50'>Going to</span>
+            <span className='text-2xl'>New Work</span>
           </div>
         </div>
       </div>
@@ -39,8 +37,8 @@ export function Cards() {
         </div>
         <div className='flex justify-center items-center '>
           <div className='flex flex-col '>
-            <div className='flex justify-center items-center gap-2 '>
-              <span className='text-black/50 leading-10'>Return</span>
+            <div className='flex justify-center items-center gap-2'>
+              <span className='text-black/80 leading-10'>Return</span>
               <ImAirplane size={18} color='#3E86F5' />
             </div>
             <span className='text-2xl'>09 Nov, Sat</span>
