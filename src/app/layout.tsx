@@ -1,8 +1,14 @@
+import { Header } from '@/components/header';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { Header } from '@/components/header';
+import { Stoke } from 'next/font/google';
+
 const inter = Inter({ subsets: ['latin'] });
+const stoke = Stoke({
+  subsets: ['latin'],
+  weight: '300',
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,9 +22,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='antialiased'>
-      <link rel='icon' href='/favicon.svg' />
-      <body className={inter.className}>
-          <Header />
+      <body className={stoke.className}>
+        <Header />
         {children}
       </body>
     </html>
