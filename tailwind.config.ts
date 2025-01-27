@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,10 +7,12 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+     backgroundImage: {
+      bannerImg: "url('/travel-banner.svg')",
+      blackOverlay: 
+        "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8)100%)"
+     },
+    
     },
   },
   plugins: [],
