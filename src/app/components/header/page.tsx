@@ -51,6 +51,7 @@ export default function Header() {
           </p>
         </div>
       </section>
+      
     </header>
   );
 }
