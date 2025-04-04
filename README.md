@@ -1,7 +1,7 @@
 # ✈️ TRX Travel ✈️
 
 <div align="center">
-<img src="https://github.com/tricia-sz/mountain-hero-parallax/blob/main/.gitassets/capa.png?raw=true" width="250" />
+<img src="https://github.com/tricia-sz/trx_travel/blob/main/.gitassets/capa.png?raw=true" width="250" />
 
 
 <div data-badges>
@@ -58,8 +58,8 @@ Site teste com next 13 , site de vendas de passagens aereas
 
 ## 🗒️ Features 🗒️
 
-- Conhecend novas montanhas
-- Informações completas sobre escaladas em montanhas
+- 
+- 
 
 
 ## 💎 Links úteis 💎
