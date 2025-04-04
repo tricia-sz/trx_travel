@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✈️ TRX Travel ✈️
 
-## Getting Started
+<div align="center">
+<img src="https://github.com/tricia-sz/mountain-hero-parallax/blob/main/.gitassets/capa.png?raw=true" width="250" />
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<div data-badges>
+  <img src="https://img.shields.io/github/stars/portfolio-projetos-dev/kino?style=for-the-badge" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/portfolio-projetos-dev/kino?style=for-the-badge" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/issues/portfolio-projetos-dev/kino?style=for-the-badge" alt="GitHub issues" />
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div data-badges>
+  <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" /> 
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+</div>
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Site teste com next 13 , site de vendas de passagens aereas 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<!-- ### SITE EM PRODUÇÃO:
 
-## Learn More
+[https://mountain-hero.netlify.app](https://mountain-hero.netlify.app) -->
 
-To learn more about Next.js, take a look at the following resources:
+## 🖥️ Como rodar este projeto 🖥️
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Execução:
 
-## Deploy on Vercel
+1. Clone este repositório:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```sh
+   git clone git@github.com:tricia-sz/trx_travel.git
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Acesse o diretório do projeto:
+
+   ```sh
+   cd trx_travel
+   ```
+
+
+
+3. Execute o npm para instalar as bibliotecas utlizadas no projeto
+
+   ```sh
+   mpm installl
+   ```
+4. Execute o projeto localmente:
+
+   ```sh
+   mpm run dev
+   ```
+
+## 🗒️ Features 🗒️
+
+- Conhecend novas montanhas
+- Informações completas sobre escaladas em montanhas
+
+
+## 💎 Links úteis 💎
+
+ <!-- - [The Movie DB](https://www.themoviedb.org) -->
+- [Next.js](https://nextjs.org/docs)
+- [TypeScript](https://www.typescriptlang.org/docs)
+- [Shadcn](https://ui.shadcn.com) 
+
+
+
+
